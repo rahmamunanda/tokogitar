@@ -1,0 +1,384 @@
+CRITICAL - 2025-01-27 12:37:50 --> ErrorException: Undefined array key "deskripsi"
+[Method: GET, Route: gitars]
+in APPPATH\Views\gitars\index.php on line 30.
+ 1 APPPATH\Views\gitars\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "deskripsi"', 'C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('gitars/index', [], true)
+ 5 APPPATH\Controllers\Gitars.php(22): view('gitars/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gitars->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gitars))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tokogitar\\public\\index.php')
+CRITICAL - 2025-01-27 12:38:52 --> ErrorException: Undefined array key "deskripsi"
+[Method: GET, Route: gitars]
+in APPPATH\Views\gitars\index.php on line 30.
+ 1 APPPATH\Views\gitars\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "deskripsi"', 'C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('gitars/index', [], true)
+ 5 APPPATH\Controllers\Gitars.php(22): view('gitars/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gitars->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gitars))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tokogitar\\public\\index.php')
+CRITICAL - 2025-01-27 13:33:15 --> ErrorException: Undefined variable $merchandise
+[Method: GET, Route: gitars/edit/2]
+in APPPATH\Views\gitars\edit.php on line 4.
+ 1 APPPATH\Views\gitars\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $merchandise', 'C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\edit.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('gitars/edit', [], true)
+ 5 APPPATH\Controllers\Gitars.php(84): view('gitars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gitars->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gitars))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tokogitar\\public\\index.php')
+CRITICAL - 2025-01-27 13:34:43 --> ErrorException: Undefined variable $merchandise
+[Method: GET, Route: gitars/edit/1]
+in APPPATH\Views\gitars\edit.php on line 4.
+ 1 APPPATH\Views\gitars\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $merchandise', 'C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\edit.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('gitars/edit', [], true)
+ 5 APPPATH\Controllers\Gitars.php(84): view('gitars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gitars->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gitars))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tokogitar\\public\\index.php')
+CRITICAL - 2025-01-27 15:48:24 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: gitars]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\gitars\index.php(118): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('gitars/index', [], true)
+ 5 APPPATH\Controllers\Gitars.php(22): view('gitars/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gitars->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gitars))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tokogitar\\public\\index.php')
+CRITICAL - 2025-01-27 15:49:56 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: gitars]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\gitars\index.php(118): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('gitars/index', [], true)
+ 5 APPPATH\Controllers\Gitars.php(22): view('gitars/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gitars->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gitars))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tokogitar\\public\\index.php')
+CRITICAL - 2025-01-27 15:57:19 --> ErrorException: Undefined variable $merchandise
+[Method: GET, Route: gitars/edit/4]
+in APPPATH\Views\gitars\edit.php on line 4.
+ 1 APPPATH\Views\gitars\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $merchandise', 'C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\edit.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('gitars/edit', [], true)
+ 5 APPPATH\Controllers\Gitars.php(84): view('gitars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gitars->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gitars))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tokogitar\\public\\index.php')
+CRITICAL - 2025-01-27 16:25:44 --> ErrorException: Undefined variable $merchandise
+[Method: GET, Route: gitars/edit/1]
+in APPPATH\Views\gitars\edit.php on line 4.
+ 1 APPPATH\Views\gitars\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $merchandise', 'C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\edit.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('gitars/edit', [], true)
+ 5 APPPATH\Controllers\Gitars.php(84): view('gitars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gitars->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gitars))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tokogitar\\public\\index.php')
+CRITICAL - 2025-01-27 16:26:30 --> ErrorException: Undefined variable $merchandise
+[Method: GET, Route: gitars/edit/1]
+in APPPATH\Views\gitars\edit.php on line 4.
+ 1 APPPATH\Views\gitars\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $merchandise', 'C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\edit.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('gitars/edit', [], true)
+ 5 APPPATH\Controllers\Gitars.php(84): view('gitars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gitars->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gitars))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tokogitar\\public\\index.php')
+CRITICAL - 2025-01-27 16:26:40 --> ErrorException: Undefined variable $merchandise
+[Method: GET, Route: gitars/edit/1]
+in APPPATH\Views\gitars\edit.php on line 4.
+ 1 APPPATH\Views\gitars\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $merchandise', 'C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\edit.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('gitars/edit', [], true)
+ 5 APPPATH\Controllers\Gitars.php(84): view('gitars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gitars->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gitars))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tokogitar\\public\\index.php')
+CRITICAL - 2025-01-27 16:26:54 --> ErrorException: Undefined variable $merchandise
+[Method: GET, Route: gitars/edit/1]
+in APPPATH\Views\gitars\edit.php on line 4.
+ 1 APPPATH\Views\gitars\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $merchandise', 'C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\edit.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('gitars/edit', [], true)
+ 5 APPPATH\Controllers\Gitars.php(84): view('gitars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gitars->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gitars))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tokogitar\\public\\index.php')
+CRITICAL - 2025-01-27 16:39:08 --> ErrorException: Undefined variable $merchandise
+[Method: GET, Route: gitars/edit/2]
+in APPPATH\Views\gitars\edit.php on line 5.
+ 1 APPPATH\Views\gitars\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $merchandise', 'C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\edit.php', 5)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('gitars/edit', [], true)
+ 5 APPPATH\Controllers\Gitars.php(84): view('gitars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gitars->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gitars))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tokogitar\\public\\index.php')
+CRITICAL - 2025-01-27 16:41:23 --> ErrorException: Undefined variable $shop
+[Method: GET, Route: gitars/edit/1]
+in APPPATH\Views\gitars\edit.php on line 5.
+ 1 APPPATH\Views\gitars\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $shop', 'C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\edit.php', 5)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('gitars/edit', [], true)
+ 5 APPPATH\Controllers\Gitars.php(84): view('gitars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gitars->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gitars))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tokogitar\\public\\index.php')
+CRITICAL - 2025-01-27 16:41:27 --> ErrorException: Undefined variable $shop
+[Method: GET, Route: gitars/edit/1]
+in APPPATH\Views\gitars\edit.php on line 5.
+ 1 APPPATH\Views\gitars\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $shop', 'C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\edit.php', 5)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('gitars/edit', [], true)
+ 5 APPPATH\Controllers\Gitars.php(84): view('gitars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gitars->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gitars))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tokogitar\\public\\index.php')
+CRITICAL - 2025-01-27 16:41:31 --> ErrorException: Undefined variable $shop
+[Method: GET, Route: gitars/edit/1]
+in APPPATH\Views\gitars\edit.php on line 5.
+ 1 APPPATH\Views\gitars\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $shop', 'C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\edit.php', 5)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('gitars/edit', [], true)
+ 5 APPPATH\Controllers\Gitars.php(84): view('gitars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gitars->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gitars))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tokogitar\\public\\index.php')
+CRITICAL - 2025-01-27 16:42:22 --> ErrorException: Undefined variable $merchandise
+[Method: GET, Route: gitars/edit/1]
+in APPPATH\Views\gitars\edit.php on line 4.
+ 1 APPPATH\Views\gitars\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $merchandise', 'C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\edit.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('gitars/edit', [], true)
+ 5 APPPATH\Controllers\Gitars.php(84): view('gitars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gitars->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gitars))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tokogitar\\public\\index.php')
+CRITICAL - 2025-01-27 17:02:21 --> ParseError: syntax error, unexpected token "?", expecting end of file
+[Method: GET, Route: gitars/contact]
+in APPPATH\Views\gitars\contact.php on line 35.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('gitars/contact', [], true)
+ 3 APPPATH\Controllers\Gitars.php(49): view('gitars/contact', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gitars->contact()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gitars))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tokogitar\\public\\index.php')
+CRITICAL - 2025-01-27 17:02:24 --> ParseError: syntax error, unexpected token "?", expecting end of file
+[Method: GET, Route: gitars/contact]
+in APPPATH\Views\gitars\contact.php on line 35.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('gitars/contact', [], true)
+ 3 APPPATH\Controllers\Gitars.php(49): view('gitars/contact', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gitars->contact()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gitars))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tokogitar\\public\\index.php')
+CRITICAL - 2025-01-27 17:02:29 --> ParseError: syntax error, unexpected token "?", expecting end of file
+[Method: GET, Route: gitars/contact]
+in APPPATH\Views\gitars\contact.php on line 35.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('gitars/contact', [], true)
+ 3 APPPATH\Controllers\Gitars.php(49): view('gitars/contact', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gitars->contact()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gitars))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tokogitar\\public\\index.php')
+CRITICAL - 2025-01-27 18:51:32 --> ErrorException: Undefined variable $merchandise
+[Method: GET, Route: gitars/edit/2]
+in APPPATH\Views\gitars\edit.php on line 4.
+ 1 APPPATH\Views\gitars\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $merchandise', 'C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\edit.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('gitars/edit', [], true)
+ 5 APPPATH\Controllers\Gitars.php(84): view('gitars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gitars->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gitars))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tokogitar\\public\\index.php')
+CRITICAL - 2025-01-27 19:02:39 --> ErrorException: Undefined variable $merchandise
+[Method: GET, Route: gitars/edit/2]
+in APPPATH\Views\gitars\edit.php on line 4.
+ 1 APPPATH\Views\gitars\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $merchandise', 'C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\edit.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('gitars/edit', [], true)
+ 5 APPPATH\Controllers\Gitars.php(84): view('gitars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gitars->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gitars))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tokogitar\\public\\index.php')
+CRITICAL - 2025-01-27 19:02:45 --> ErrorException: Undefined variable $merchandise
+[Method: GET, Route: gitars/edit/1]
+in APPPATH\Views\gitars\edit.php on line 4.
+ 1 APPPATH\Views\gitars\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $merchandise', 'C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\edit.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('gitars/edit', [], true)
+ 5 APPPATH\Controllers\Gitars.php(84): view('gitars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gitars->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gitars))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tokogitar\\public\\index.php')
+CRITICAL - 2025-01-27 19:04:59 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: gitars/edit/1]
+in APPPATH\Views\gitars\edit.php on line 8.
+ 1 APPPATH\Views\gitars\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('gitars/edit', [], true)
+ 5 APPPATH\Controllers\Gitars.php(84): view('gitars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gitars->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gitars))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tokogitar\\public\\index.php')
+CRITICAL - 2025-01-27 23:06:53 --> ErrorException: Undefined array key "gambar"
+[Method: GET, Route: gitars/detail/1]
+in APPPATH\Views\gitars\detail.php on line 122.
+ 1 APPPATH\Views\gitars\detail.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gambar"', 'C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\detail.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('gitars/detail', [], true)
+ 5 APPPATH\Controllers\Gitars.php(58): view('gitars/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gitars->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gitars))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tokogitar\\public\\index.php')
+CRITICAL - 2025-01-27 23:09:05 --> ErrorException: Undefined array key "gambar"
+[Method: GET, Route: gitars/detail/1]
+in APPPATH\Views\gitars\detail.php on line 122.
+ 1 APPPATH\Views\gitars\detail.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gambar"', 'C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\detail.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('gitars/detail', [], true)
+ 5 APPPATH\Controllers\Gitars.php(58): view('gitars/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gitars->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gitars))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tokogitar\\public\\index.php')
+CRITICAL - 2025-01-27 23:09:06 --> ErrorException: Undefined array key "gambar"
+[Method: GET, Route: gitars/detail/1]
+in APPPATH\Views\gitars\detail.php on line 122.
+ 1 APPPATH\Views\gitars\detail.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gambar"', 'C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\detail.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\tokogitar\\app\\Views\\gitars\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('gitars/detail', [], true)
+ 5 APPPATH\Controllers\Gitars.php(58): view('gitars/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gitars->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gitars))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tokogitar\\public\\index.php')
